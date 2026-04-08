@@ -1,6 +1,6 @@
 package konhaiii.slime_finder;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -24,7 +24,7 @@ public class ModItems {
 	public static final Item SLIME_DOWSING_STAFF = register("slime_dowsing_staff", ModTooltips::new, new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 
 	public static void initialize() {
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
-				.register((itemGroup) -> itemGroup.addAfter(Items.SPYGLASS, SLIME_DOWSING_STAFF));
+		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+				.register((itemGroup) -> itemGroup.insertAfter(Items.SPYGLASS, SLIME_DOWSING_STAFF));
 	}
 }
