@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_slime_ball": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:slime_ball"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_echo_shard": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:echo_shard"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "slime_finder:slime_dowsing_staff"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_slime_ball",
+			"has_echo_shard"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"slime_finder:slime_dowsing_staff"
+		]
+	}
+}

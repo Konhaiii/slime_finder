@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" EB",
+		" EE",
+		"S  "
+	],
+	"key": {
+		"B": "minecraft:slime_ball",
+		"E": "minecraft:echo_shard",
+		"S": "minecraft:stick"
+	},
+	"result": {
+		"id": "slime_finder:slime_dowsing_staff",
+		"count": 1
+	}
+}

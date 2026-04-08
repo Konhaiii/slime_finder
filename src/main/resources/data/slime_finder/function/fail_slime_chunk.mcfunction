@@ -1,0 +1,2 @@
+execute if entity @s[tag=slime_finder-mainhand] run item modify entity @s weapon.mainhand slime_finder:slime_dowsing_staff_unglint
+execute if entity @s[tag=!slime_finder-mainhand] run item modify entity @s weapon.offhand slime_finder:slime_dowsing_staff_unglint
