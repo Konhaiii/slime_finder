@@ -9,7 +9,7 @@ This is a Fabric mod, but a datapack version is available (the datapack version 
 
 ### Slime Dowsing Staff
 This item will glint when held in a chunk where at least 1 slime has spawned naturally in a cave.
-  
+
 ![Slime Dowsing Staff Recipe](https://cdn.modrinth.com/data/cached_images/e930f492b0323d94cc53653505691a45aa0bd68c.png)
 
 **This item can't recognize a slime chunk if no slime has ever spawned in the said chunk.** In a normal playthrough, by the time you have the resources to make a Slime Dowsing Staff, every slime chunks around your base will be registered.
