@@ -3,7 +3,7 @@ https://modrinth.com/datapack/slime-finder
 
 Tired of having to use an external website to find slime chunks ? Slime Finder offers you an in-game method to find them.
 
-This is a Fabric mod, but a datapack version is available (the datapack version needs the resource pack or the staff will not render correctly).
+This is a Fabric mod, but a datapack version is available (only for minecraft 1.21.4) (the datapack version needs the resource pack or the staff will not render correctly).
 
 ![Slime Finder Preview](https://cdn.modrinth.com/data/cached_images/e4793416067a2361dba29071f1c0cf0431391e9c.jpeg)
 
